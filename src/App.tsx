@@ -4,7 +4,7 @@ import axios from "axios";
 
 function App() {
   const [response, setResponse] = useState<string>(
-    "Hi there! How can I assist you?"
+    ""
   );
   const [value, setValue] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
@@ -81,6 +81,7 @@ function App() {
             <p
               dangerouslySetInnerHTML={{ __html: formatResponse(response) }}
             ></p>
+            <p className="bot-prompt">Hii there! How can I assist you?</p>
           </>
         )}
       </div>
