@@ -14,7 +14,7 @@ This is an AI-powered chatbot, built using **React**, **Node.js**, **TypeScript*
 
 ## Installation
 
-1. Clone the repo: `git clone https://github.com/YourUsername/Chatbot-Project.git`
+1. Clone the repo: `git clone https://github.com/Pradnya2611/Chatbot-Project.git`
 2. Install dependencies: `npm install`
 3. Start the project: `npm start`
 
